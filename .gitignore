@@ -1,0 +1,14 @@
+app/node_modules/
+app/dist/
+app/runtime/*
+!app/runtime/.gitkeep
+/info.md
+/record/*
+!/record/.gitkeep
+/review/*
+!/review/daily/
+/review/daily/*
+!/review/daily/.gitkeep
+/config/*
+!/config/.gitkeep
+/app/scripts/

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>SSHZYU</title>
+  <rect width="64" height="64" rx="18" fill="#1d1d1f"/>
+  <path d="M44 19H28a9 9 0 0 0 0 18h8a4 4 0 0 1 0 8H20" stroke="white" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M20 45h16a9 9 0 0 0 0-18h-8a4 4 0 0 1 0-8h16" stroke="white" stroke-opacity=".45" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="46" cy="19" r="3" fill="#4c9aff"/>
+</svg>

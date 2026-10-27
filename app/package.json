@@ -1,0 +1,29 @@
+{
+  "name": "personal-workspace",
+  "version": "0.2.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"node server/index.mjs\" \"vite --host 127.0.0.1\"",
+    "build": "vite build",
+    "test": "node --test test/*.test.mjs",
+    "start": "node server/index.mjs"
+  },
+  "dependencies": {
+    "echarts": "^6.1.0",
+    "lucide-react": "^0.468.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "silk-wasm": "^3.7.1",
+    "unified": "^11.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
+    "concurrently": "^9.2.1",
+    "vite": "^8.3.5"
+  }
+}
